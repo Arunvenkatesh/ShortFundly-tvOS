@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Brightcove-Player-SDK/dynamic (5.3.3)
+  - FocusTvButton (0.1.4)
+  - YTVimeoExtractor (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Brightcove-Player-SDK/dynamic
+  - FocusTvButton (~> 0.1.4)
+  - YTVimeoExtractor
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Brightcove-Player-SDK: 1b2f7668b9aef8339292ae36d823cb8da8f9e1e6
+  FocusTvButton: 489576ee179cdb763d4dd4c6e74847bacbbfa9d4
+  YTVimeoExtractor: f4ed90f43e08d33d56c1d1aff3f4f64663747966
+
+PODFILE CHECKSUM: bcd1829d878bd301d8d7950c5984912d9e601e88
+
+COCOAPODS: 1.2.1

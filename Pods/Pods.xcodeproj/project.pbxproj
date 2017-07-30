@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004630E039912130BB578F7F56670B16 /* YTVimeoExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB9EFD8DF96ABCAC3DA5304295A133C /* YTVimeoExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09C7D303D52C5BAAD9F1C121F00C83A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D63B397DD7C2A0B6C4DAADFD5B12F1 /* Foundation.framework */; };
+		0A18F74ED42D964102AC06D3268682E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D63B397DD7C2A0B6C4DAADFD5B12F1 /* Foundation.framework */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E3AF6AA8590EFB2205DC06F0D33246 /* Timeline.swift */; };
+		163E547147AE14CEDCD2B42FAFD85D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D63B397DD7C2A0B6C4DAADFD5B12F1 /* Foundation.framework */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF663E5D399E5ADD9902F2050D3AC888 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2015F14C6BFAFB4D1D9D8B91DE572048 /* YTVimeoExtractorOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B015E330448D42A97D0E87AD0E584D01 /* YTVimeoExtractorOperation.m */; };
+		205E28231BD6AF3554FD20756059F1AA /* FocusTvButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09046DA3E93AC90BF999DAD53C97A426 /* FocusTvButton.swift */; };
+		30606AE7E1E0BCFFB85D0633E873F5FA /* YTVimeoURLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E0CF31275262398CD740D258236F28 /* YTVimeoURLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B780C4162461D541EA581466B04F8B3 /* TaskDelegate.swift */; };
+		48DAA788248B8C498C364A8C3BFC83DD /* YTVimeoExtractor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDE6A1035EAE0676F8D3ABCB5549417 /* YTVimeoExtractor-dummy.m */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF954F3482774C4CE43C2A80515FA5B /* Request.swift */; };
+		544799C8F65976798B64650E7621B7AF /* FocusTvButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA1E2709F25B384625B263D1C7547C1 /* FocusTvButton-dummy.m */; };
+		57E3FD96F7F97039B1B375DCABE9D8A9 /* YTVimeoExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D16822CE6D4CDE2ADB3EEBB6357F3B6A /* YTVimeoExtractor.m */; };
+		584F2FFF985E5B870C4172E6D25385B3 /* YTVimeoVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CFE88CC393BC82B5ECE37A7E121841 /* YTVimeoVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A75E4A7EF9814C647086024E1D4F351 /* Pods-MovieShort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A812DDF1E2827A9FC3866A7C559D2BD7 /* Pods-MovieShort-dummy.m */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E21D824383C365EC64EA823D7684C5B /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F380A9B011840255C991774D70F337FE /* ServerTrustPolicy.swift */; };
+		6B492E28BE36F5BE5B3620BC76DE95BA /* Pods-MovieShort-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5C8F5FE4F6D4FCAC59C50FCC443114 /* Pods-MovieShort-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9E41C081B3812FCBEF61767E58DA4F /* YTVimeoExtractorOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D394C8CCDC71C181ED7CDE45CB79B94 /* YTVimeoExtractorOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE1EFA84E0CEB05B2223132CF79CCCA /* SessionDelegate.swift */; };
+		7C3CBDD3670825D769ECD5E9B2D63BBE /* YTVimeoURLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E174792D7BDFF3CE5676000D5CCE3 /* YTVimeoURLParser.m */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F837258F0191563DD4C1F54C345E03C /* Result.swift */; };
+		9E2F497A2C9AA761423BD7D28701CE31 /* YTVimeoVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4691DEBBB52290F802F857EE45C22BC7 /* YTVimeoVideo+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DE9283C6422A65B4ED4AC6F546B39 /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B5A70253598BF109610EFEED2C540 /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93541A3EA1247EEEB8EC334F7C78ABA2 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAEE7E1B1BE9B8181474F25544E604 /* SessionManager.swift */; };
+		AE88331BE258E69DE13D92C0359A8D47 /* YTVimeoVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48244CB68724E443D46EAA5077169A74 /* YTVimeoVideo.m */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE3FF31C9E03D1FE6DED2B3CAF2CB8D /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4734602564D9F71FE96C813266ACC62B /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EB90E860E8F006B3195193D9D3670 /* ParameterEncoding.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D7AD7B83D76F90C546EE3A999E5DD /* Response.swift */; };
+		CCD282034A9275C154BC5A59AB398631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D63B397DD7C2A0B6C4DAADFD5B12F1 /* Foundation.framework */; };
+		D4D365B14A1EF1928DEA3D732707D7FC /* FocusTvButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F2FA30186A93577C7EEDD9714000BB /* FocusTvButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCEAAF35E39734B281DA22065449891 /* YTVimeoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C1F6333FFD59CE0C1005966C6640A /* YTVimeoError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEA3549AEC12761A8E00BF6B2AE6A8DA /* YTVimeoExtractor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B47F34C6291F085DDC50517D2494007 /* YTVimeoExtractor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2209D9FF8ACFB0B8E473457387BC0 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138BBCBA408F5BE4AAA773C5DC1A7DFB /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD4E29918BE59FC14BFA29C7357772 /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31562DAD2B3658F982C46D0D34EE6CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		C7046E59E2C34239C84282FA89833CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE2F9E13BE293FDE9E3E629B6578B45;
+			remoteInfo = YTVimeoExtractor;
+		};
+		F77C5A5CDB9F8D4761A2D37A8384AF97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0F71EC33BB3EDE768521B8883C3FED;
+			remoteInfo = FocusTvButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FFB309682AFB4CBF9B500D7CD82B3E /* Pods_MovieShort.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovieShort.framework; path = "Pods-MovieShort.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01435E2C79F118B02A85739E5E770273 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CFE88CC393BC82B5ECE37A7E121841 /* YTVimeoVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTVimeoVideo.h; path = YTVimeoExtractor/YTVimeoVideo.h; sourceTree = "<group>"; };
+		077EB90E860E8F006B3195193D9D3670 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		09046DA3E93AC90BF999DAD53C97A426 /* FocusTvButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusTvButton.swift; path = FocusTvButton/Source/FocusTvButton.swift; sourceTree = "<group>"; };
+		0D394C8CCDC71C181ED7CDE45CB79B94 /* YTVimeoExtractorOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTVimeoExtractorOperation.h; path = YTVimeoExtractor/YTVimeoExtractorOperation.h; sourceTree = "<group>"; };
+		10395634B466EE53CE4E2C7ECC296208 /* FocusTvButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FocusTvButton.xcconfig; sourceTree = "<group>"; };
+		126BB4146E25E31EA94898C8A77F99A8 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		138BBCBA408F5BE4AAA773C5DC1A7DFB /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		17D63B397DD7C2A0B6C4DAADFD5B12F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1B780C4162461D541EA581466B04F8B3 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		247F580F6B7B38756E4A04A7BE055E67 /* BrightcovePlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightcovePlayerSDK.framework; path = tvos/BrightcovePlayerSDK.framework; sourceTree = "<group>"; };
+		26DAEE7E1B1BE9B8181474F25544E604 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		28BB11DA310E34B3F164D1AE44657213 /* YTVimeoExtractor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTVimeoExtractor-prefix.pch"; sourceTree = "<group>"; };
+		2F837258F0191563DD4C1F54C345E03C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		34E1E2D1DC4E01DF4B93A9EE06E7CEBA /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		35E3AF6AA8590EFB2205DC06F0D33246 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		3C086EC04FDE11548875848F39353B6F /* FocusTvButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FocusTvButton.modulemap; sourceTree = "<group>"; };
+		3D2B5A70253598BF109610EFEED2C540 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		4691DEBBB52290F802F857EE45C22BC7 /* YTVimeoVideo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YTVimeoVideo+Private.h"; path = "YTVimeoExtractor/YTVimeoVideo+Private.h"; sourceTree = "<group>"; };
+		4734602564D9F71FE96C813266ACC62B /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		48244CB68724E443D46EAA5077169A74 /* YTVimeoVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTVimeoVideo.m; path = YTVimeoExtractor/YTVimeoVideo.m; sourceTree = "<group>"; };
+		5158BD498D499BD441F763CCFACD9B82 /* YTVimeoExtractor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YTVimeoExtractor.xcconfig; sourceTree = "<group>"; };
+		5FB9EFD8DF96ABCAC3DA5304295A133C /* YTVimeoExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTVimeoExtractor.h; path = YTVimeoExtractor/YTVimeoExtractor.h; sourceTree = "<group>"; };
+		68E0CF31275262398CD740D258236F28 /* YTVimeoURLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTVimeoURLParser.h; path = YTVimeoExtractor/YTVimeoURLParser.h; sourceTree = "<group>"; };
+		6B47F34C6291F085DDC50517D2494007 /* YTVimeoExtractor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTVimeoExtractor-umbrella.h"; sourceTree = "<group>"; };
+		6E8E0799F3910BA86D3E951B0568494D /* Pods-MovieShort-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieShort-frameworks.sh"; sourceTree = "<group>"; };
+		706E174792D7BDFF3CE5676000D5CCE3 /* YTVimeoURLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTVimeoURLParser.m; path = YTVimeoExtractor/YTVimeoURLParser.m; sourceTree = "<group>"; };
+		74292C770A95919B2BD157C4FBAA0A99 /* Pods-MovieShort-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieShort-resources.sh"; sourceTree = "<group>"; };
+		7CFFB28F49098B8E6D26E8C21F0E5570 /* YTVimeoExtractor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YTVimeoExtractor.modulemap; sourceTree = "<group>"; };
+		7F5D7AD7B83D76F90C546EE3A999E5DD /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		839C1F6333FFD59CE0C1005966C6640A /* YTVimeoError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTVimeoError.h; path = YTVimeoExtractor/YTVimeoError.h; sourceTree = "<group>"; };
+		84F2FA30186A93577C7EEDD9714000BB /* FocusTvButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FocusTvButton-umbrella.h"; sourceTree = "<group>"; };
+		8BAF45A81A4FC163D4FA99E75ED645CF /* FocusTvButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FocusTvButton-prefix.pch"; sourceTree = "<group>"; };
+		8EED3ED9E9EF4FBE8FDB788916CC4832 /* YTVimeoExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YTVimeoExtractor.framework; path = YTVimeoExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93541A3EA1247EEEB8EC334F7C78ABA2 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AD07D86015EC31A210D45F8FC8890EE /* Pods-MovieShort-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieShort-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B5C8F5FE4F6D4FCAC59C50FCC443114 /* Pods-MovieShort-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieShort-umbrella.h"; sourceTree = "<group>"; };
+		9CF954F3482774C4CE43C2A80515FA5B /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		9D255F12A2C1E9160C2036EEC9CA340F /* Pods-MovieShort.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieShort.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE3FF31C9E03D1FE6DED2B3CAF2CB8D /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		9E21D824383C365EC64EA823D7684C5B /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		9F244E95211E41736F3E32C7A4BDE90C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD505F67B08F0D5669E9491A912921E /* Pods-MovieShort-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieShort-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A812DDF1E2827A9FC3866A7C559D2BD7 /* Pods-MovieShort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieShort-dummy.m"; sourceTree = "<group>"; };
+		AA0A8A8119401F7942A03FA2B6824FFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3FD15BADF6E341552D33C5F57DEC5F /* FocusTvButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FocusTvButton.framework; path = FocusTvButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDE6A1035EAE0676F8D3ABCB5549417 /* YTVimeoExtractor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YTVimeoExtractor-dummy.m"; sourceTree = "<group>"; };
+		B015E330448D42A97D0E87AD0E584D01 /* YTVimeoExtractorOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTVimeoExtractorOperation.m; path = YTVimeoExtractor/YTVimeoExtractorOperation.m; sourceTree = "<group>"; };
+		BAAA7BC36BC73A1EAB0C17DB84C0ECD1 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		BCA1E2709F25B384625B263D1C7547C1 /* FocusTvButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FocusTvButton-dummy.m"; sourceTree = "<group>"; };
+		BFE1EFA84E0CEB05B2223132CF79CCCA /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		C504A7CE6C3A16FC5190FE7CA9155FB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7DE9283C6422A65B4ED4AC6F546B39 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		D16822CE6D4CDE2ADB3EEBB6357F3B6A /* YTVimeoExtractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTVimeoExtractor.m; path = YTVimeoExtractor/YTVimeoExtractor.m; sourceTree = "<group>"; };
+		DF663E5D399E5ADD9902F2050D3AC888 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		E6E675696EBF686CB6E5426E6AF42F45 /* Pods-MovieShort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieShort.release.xcconfig"; sourceTree = "<group>"; };
+		F1F96399496CA7DFFC696BBBA1BE24A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F380A9B011840255C991774D70F337FE /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		F3A43327232387EC6AE45818AD2D820C /* Pods-MovieShort.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MovieShort.modulemap"; sourceTree = "<group>"; };
+		FBFD4E29918BE59FC14BFA29C7357772 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		FEB2209D9FF8ACFB0B8E473457387BC0 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0234E965D587BC11945E93D96113B02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163E547147AE14CEDCD2B42FAFD85D33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A535CBD325C7F225A4160273D9165E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD282034A9275C154BC5A59AB398631 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A18F74ED42D964102AC06D3268682E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAB0090153C2AB0D282A33CB81804FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C7D303D52C5BAAD9F1C121F00C83A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0507762B7A266688B19DE210E386F394 /* dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				25D9343ECE32D631A51CB6B15C879770 /* Frameworks */,
+			);
+			name = dynamic;
+			sourceTree = "<group>";
+		};
+		05FC860412591BDB49708E3552F8AB28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01435E2C79F118B02A85739E5E770273 /* Alamofire.framework */,
+				AC3FD15BADF6E341552D33C5F57DEC5F /* FocusTvButton.framework */,
+				00FFB309682AFB4CBF9B500D7CD82B3E /* Pods_MovieShort.framework */,
+				8EED3ED9E9EF4FBE8FDB788916CC4832 /* YTVimeoExtractor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1195AFCE4CD6623351D0FDED65488C8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34057F5F5E484F1A48170124A4C9345A /* Alamofire */,
+				2A7E6B1CDBB66FC122B0316FB26BE154 /* Brightcove-Player-SDK */,
+				B4CF171EFA50EE525F021D2E84D94CCD /* FocusTvButton */,
+				C90A7B4C145242678889502674C49E5F /* YTVimeoExtractor */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20F6B87BCC25D2939A84C090C63E247C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C086EC04FDE11548875848F39353B6F /* FocusTvButton.modulemap */,
+				10395634B466EE53CE4E2C7ECC296208 /* FocusTvButton.xcconfig */,
+				BCA1E2709F25B384625B263D1C7547C1 /* FocusTvButton-dummy.m */,
+				8BAF45A81A4FC163D4FA99E75ED645CF /* FocusTvButton-prefix.pch */,
+				84F2FA30186A93577C7EEDD9714000BB /* FocusTvButton-umbrella.h */,
+				F1F96399496CA7DFFC696BBBA1BE24A7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FocusTvButton";
+			sourceTree = "<group>";
+		};
+		25D9343ECE32D631A51CB6B15C879770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				247F580F6B7B38756E4A04A7BE055E67 /* BrightcovePlayerSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A7E6B1CDBB66FC122B0316FB26BE154 /* Brightcove-Player-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				0507762B7A266688B19DE210E386F394 /* dynamic */,
+			);
+			name = "Brightcove-Player-SDK";
+			path = "Brightcove-Player-SDK";
+			sourceTree = "<group>";
+		};
+		34057F5F5E484F1A48170124A4C9345A /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				CD7DE9283C6422A65B4ED4AC6F546B39 /* AFError.swift */,
+				FBFD4E29918BE59FC14BFA29C7357772 /* Alamofire.swift */,
+				9E21D824383C365EC64EA823D7684C5B /* DispatchQueue+Alamofire.swift */,
+				9DE3FF31C9E03D1FE6DED2B3CAF2CB8D /* MultipartFormData.swift */,
+				3D2B5A70253598BF109610EFEED2C540 /* NetworkReachabilityManager.swift */,
+				FEB2209D9FF8ACFB0B8E473457387BC0 /* Notifications.swift */,
+				077EB90E860E8F006B3195193D9D3670 /* ParameterEncoding.swift */,
+				9CF954F3482774C4CE43C2A80515FA5B /* Request.swift */,
+				7F5D7AD7B83D76F90C546EE3A999E5DD /* Response.swift */,
+				138BBCBA408F5BE4AAA773C5DC1A7DFB /* ResponseSerialization.swift */,
+				2F837258F0191563DD4C1F54C345E03C /* Result.swift */,
+				F380A9B011840255C991774D70F337FE /* ServerTrustPolicy.swift */,
+				BFE1EFA84E0CEB05B2223132CF79CCCA /* SessionDelegate.swift */,
+				26DAEE7E1B1BE9B8181474F25544E604 /* SessionManager.swift */,
+				1B780C4162461D541EA581466B04F8B3 /* TaskDelegate.swift */,
+				35E3AF6AA8590EFB2205DC06F0D33246 /* Timeline.swift */,
+				4734602564D9F71FE96C813266ACC62B /* Validation.swift */,
+				4780591AF8E9B703DA43CA926248B445 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		4780591AF8E9B703DA43CA926248B445 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				126BB4146E25E31EA94898C8A77F99A8 /* Alamofire.modulemap */,
+				BAAA7BC36BC73A1EAB0C17DB84C0ECD1 /* Alamofire.xcconfig */,
+				93541A3EA1247EEEB8EC334F7C78ABA2 /* Alamofire-dummy.m */,
+				34E1E2D1DC4E01DF4B93A9EE06E7CEBA /* Alamofire-prefix.pch */,
+				DF663E5D399E5ADD9902F2050D3AC888 /* Alamofire-umbrella.h */,
+				9F244E95211E41736F3E32C7A4BDE90C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BB99B8D4C7329D10E7E4451B0A72C15A /* Frameworks */,
+				1195AFCE4CD6623351D0FDED65488C8E /* Pods */,
+				05FC860412591BDB49708E3552F8AB28 /* Products */,
+				C2D8DFE2BC15ED5126A9B4AB7F6AF78F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB6F43550E213F0570FA1E541F56EE8 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				17D63B397DD7C2A0B6C4DAADFD5B12F1 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		B4CF171EFA50EE525F021D2E84D94CCD /* FocusTvButton */ = {
+			isa = PBXGroup;
+			children = (
+				09046DA3E93AC90BF999DAD53C97A426 /* FocusTvButton.swift */,
+				20F6B87BCC25D2939A84C090C63E247C /* Support Files */,
+			);
+			name = FocusTvButton;
+			path = FocusTvButton;
+			sourceTree = "<group>";
+		};
+		BB99B8D4C7329D10E7E4451B0A72C15A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB6F43550E213F0570FA1E541F56EE8 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1BA72F690E580FC5C6868897FF3E6C /* Pods-MovieShort */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A8A8119401F7942A03FA2B6824FFF /* Info.plist */,
+				F3A43327232387EC6AE45818AD2D820C /* Pods-MovieShort.modulemap */,
+				9FD505F67B08F0D5669E9491A912921E /* Pods-MovieShort-acknowledgements.markdown */,
+				9AD07D86015EC31A210D45F8FC8890EE /* Pods-MovieShort-acknowledgements.plist */,
+				A812DDF1E2827A9FC3866A7C559D2BD7 /* Pods-MovieShort-dummy.m */,
+				6E8E0799F3910BA86D3E951B0568494D /* Pods-MovieShort-frameworks.sh */,
+				74292C770A95919B2BD157C4FBAA0A99 /* Pods-MovieShort-resources.sh */,
+				9B5C8F5FE4F6D4FCAC59C50FCC443114 /* Pods-MovieShort-umbrella.h */,
+				9D255F12A2C1E9160C2036EEC9CA340F /* Pods-MovieShort.debug.xcconfig */,
+				E6E675696EBF686CB6E5426E6AF42F45 /* Pods-MovieShort.release.xcconfig */,
+			);
+			name = "Pods-MovieShort";
+			path = "Target Support Files/Pods-MovieShort";
+			sourceTree = "<group>";
+		};
+		C2D8DFE2BC15ED5126A9B4AB7F6AF78F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD1BA72F690E580FC5C6868897FF3E6C /* Pods-MovieShort */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C90A7B4C145242678889502674C49E5F /* YTVimeoExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				839C1F6333FFD59CE0C1005966C6640A /* YTVimeoError.h */,
+				5FB9EFD8DF96ABCAC3DA5304295A133C /* YTVimeoExtractor.h */,
+				D16822CE6D4CDE2ADB3EEBB6357F3B6A /* YTVimeoExtractor.m */,
+				0D394C8CCDC71C181ED7CDE45CB79B94 /* YTVimeoExtractorOperation.h */,
+				B015E330448D42A97D0E87AD0E584D01 /* YTVimeoExtractorOperation.m */,
+				68E0CF31275262398CD740D258236F28 /* YTVimeoURLParser.h */,
+				706E174792D7BDFF3CE5676000D5CCE3 /* YTVimeoURLParser.m */,
+				06CFE88CC393BC82B5ECE37A7E121841 /* YTVimeoVideo.h */,
+				48244CB68724E443D46EAA5077169A74 /* YTVimeoVideo.m */,
+				4691DEBBB52290F802F857EE45C22BC7 /* YTVimeoVideo+Private.h */,
+				D06A70ADF409FF1F1A64E34A4FC0630A /* Support Files */,
+			);
+			name = YTVimeoExtractor;
+			path = YTVimeoExtractor;
+			sourceTree = "<group>";
+		};
+		D06A70ADF409FF1F1A64E34A4FC0630A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C504A7CE6C3A16FC5190FE7CA9155FB4 /* Info.plist */,
+				7CFFB28F49098B8E6D26E8C21F0E5570 /* YTVimeoExtractor.modulemap */,
+				5158BD498D499BD441F763CCFACD9B82 /* YTVimeoExtractor.xcconfig */,
+				AEDE6A1035EAE0676F8D3ABCB5549417 /* YTVimeoExtractor-dummy.m */,
+				28BB11DA310E34B3F164D1AE44657213 /* YTVimeoExtractor-prefix.pch */,
+				6B47F34C6291F085DDC50517D2494007 /* YTVimeoExtractor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YTVimeoExtractor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		531BF4701DA72857BF2B46D454816FC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCEAAF35E39734B281DA22065449891 /* YTVimeoError.h in Headers */,
+				EEA3549AEC12761A8E00BF6B2AE6A8DA /* YTVimeoExtractor-umbrella.h in Headers */,
+				004630E039912130BB578F7F56670B16 /* YTVimeoExtractor.h in Headers */,
+				6D9E41C081B3812FCBEF61767E58DA4F /* YTVimeoExtractorOperation.h in Headers */,
+				30606AE7E1E0BCFFB85D0633E873F5FA /* YTVimeoURLParser.h in Headers */,
+				9E2F497A2C9AA761423BD7D28701CE31 /* YTVimeoVideo+Private.h in Headers */,
+				584F2FFF985E5B870C4172E6D25385B3 /* YTVimeoVideo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DA286F124056705B0F97C00FAB5D19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D365B14A1EF1928DEA3D732707D7FC /* FocusTvButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52F4985B3C516BA1316BFF3977D673F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B492E28BE36F5BE5B3620BC76DE95BA /* Pods-MovieShort-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5615635711976FB149EC461C4048A460 /* Pods-MovieShort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4789C67FBA341BD5925AE0F961B1A458 /* Build configuration list for PBXNativeTarget "Pods-MovieShort" */;
+			buildPhases = (
+				1F7EE290358B3E08A4804DDB29CBCC25 /* Sources */,
+				0234E965D587BC11945E93D96113B02E /* Frameworks */,
+				E52F4985B3C516BA1316BFF3977D673F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4BEE22F28A44651D3C666A7478B47D /* PBXTargetDependency */,
+				2DC516CBD1F9C2B6A42E194CF001CA5A /* PBXTargetDependency */,
+				229218C07201C27CD8B480789C78D33F /* PBXTargetDependency */,
+			);
+			name = "Pods-MovieShort";
+			productName = "Pods-MovieShort";
+			productReference = 00FFB309682AFB4CBF9B500D7CD82B3E /* Pods_MovieShort.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 01435E2C79F118B02A85739E5E770273 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA0F71EC33BB3EDE768521B8883C3FED /* FocusTvButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95129AE5B5D278728A0A16E417D24530 /* Build configuration list for PBXNativeTarget "FocusTvButton" */;
+			buildPhases = (
+				42805ABDA8BF160D66E5471D91FB417D /* Sources */,
+				8A535CBD325C7F225A4160273D9165E1 /* Frameworks */,
+				86DA286F124056705B0F97C00FAB5D19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusTvButton;
+			productName = FocusTvButton;
+			productReference = AC3FD15BADF6E341552D33C5F57DEC5F /* FocusTvButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCE2F9E13BE293FDE9E3E629B6578B45 /* YTVimeoExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C15C97BD9775E01BEC459C08F6C5CCA /* Build configuration list for PBXNativeTarget "YTVimeoExtractor" */;
+			buildPhases = (
+				A87A957A8A219D5430DAD3D979C381DE /* Sources */,
+				CAAB0090153C2AB0D282A33CB81804FA /* Frameworks */,
+				531BF4701DA72857BF2B46D454816FC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTVimeoExtractor;
+			productName = YTVimeoExtractor;
+			productReference = 8EED3ED9E9EF4FBE8FDB788916CC4832 /* YTVimeoExtractor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 05FC860412591BDB49708E3552F8AB28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				AA0F71EC33BB3EDE768521B8883C3FED /* FocusTvButton */,
+				5615635711976FB149EC461C4048A460 /* Pods-MovieShort */,
+				DCE2F9E13BE293FDE9E3E629B6578B45 /* YTVimeoExtractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7EE290358B3E08A4804DDB29CBCC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A75E4A7EF9814C647086024E1D4F351 /* Pods-MovieShort-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42805ABDA8BF160D66E5471D91FB417D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544799C8F65976798B64650E7621B7AF /* FocusTvButton-dummy.m in Sources */,
+				205E28231BD6AF3554FD20756059F1AA /* FocusTvButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87A957A8A219D5430DAD3D979C381DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DAA788248B8C498C364A8C3BFC83DD /* YTVimeoExtractor-dummy.m in Sources */,
+				57E3FD96F7F97039B1B375DCABE9D8A9 /* YTVimeoExtractor.m in Sources */,
+				2015F14C6BFAFB4D1D9D8B91DE572048 /* YTVimeoExtractorOperation.m in Sources */,
+				7C3CBDD3670825D769ECD5E9B2D63BBE /* YTVimeoURLParser.m in Sources */,
+				AE88331BE258E69DE13D92C0359A8D47 /* YTVimeoVideo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229218C07201C27CD8B480789C78D33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YTVimeoExtractor;
+			target = DCE2F9E13BE293FDE9E3E629B6578B45 /* YTVimeoExtractor */;
+			targetProxy = C7046E59E2C34239C84282FA89833CA0 /* PBXContainerItemProxy */;
+		};
+		2DC516CBD1F9C2B6A42E194CF001CA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FocusTvButton;
+			target = AA0F71EC33BB3EDE768521B8883C3FED /* FocusTvButton */;
+			targetProxy = F77C5A5CDB9F8D4761A2D37A8384AF97 /* PBXContainerItemProxy */;
+		};
+		2E4BEE22F28A44651D3C666A7478B47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 31562DAD2B3658F982C46D0D34EE6CAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E329771E4CD914F18E23D4132484448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F297846023A83B44A7BCA5E3FDA66A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5158BD498D499BD441F763CCFACD9B82 /* YTVimeoExtractor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YTVimeoExtractor/YTVimeoExtractor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YTVimeoExtractor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YTVimeoExtractor/YTVimeoExtractor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YTVimeoExtractor;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AD8D223665F51986A62B632A3A3F353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		4AB0B9E175F76BDE56CFF4B650F63D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E675696EBF686CB6E5426E6AF42F45 /* Pods-MovieShort.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieShort/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieShort/Pods-MovieShort.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MovieShort;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BD06CD3CAB63749A07E36B46C660F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAAA7BC36BC73A1EAB0C17DB84C0ECD1 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FC210FF909C394230BEC6832D6C0E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5158BD498D499BD441F763CCFACD9B82 /* YTVimeoExtractor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YTVimeoExtractor/YTVimeoExtractor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YTVimeoExtractor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YTVimeoExtractor/YTVimeoExtractor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YTVimeoExtractor;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		817176E231FADBBF8D1DFDC1446A6C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10395634B466EE53CE4E2C7ECC296208 /* FocusTvButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FocusTvButton/FocusTvButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FocusTvButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FocusTvButton/FocusTvButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FocusTvButton;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E5089D165C03C23E5FCEA3099A941C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D255F12A2C1E9160C2036EEC9CA340F /* Pods-MovieShort.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieShort/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieShort/Pods-MovieShort.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MovieShort;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C59D59D5DDBF146B2862680BE80AFA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10395634B466EE53CE4E2C7ECC296208 /* FocusTvButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FocusTvButton/FocusTvButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FocusTvButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FocusTvButton/FocusTvButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FocusTvButton;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F09AB0FF3AA2A4D172A3CCBE7BE68F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAAA7BC36BC73A1EAB0C17DB84C0ECD1 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C15C97BD9775E01BEC459C08F6C5CCA /* Build configuration list for PBXNativeTarget "YTVimeoExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC210FF909C394230BEC6832D6C0E51 /* Debug */,
+				1F297846023A83B44A7BCA5E3FDA66A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD8D223665F51986A62B632A3A3F353 /* Debug */,
+				0E329771E4CD914F18E23D4132484448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD06CD3CAB63749A07E36B46C660F45 /* Debug */,
+				F09AB0FF3AA2A4D172A3CCBE7BE68F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4789C67FBA341BD5925AE0F961B1A458 /* Build configuration list for PBXNativeTarget "Pods-MovieShort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5089D165C03C23E5FCEA3099A941C5 /* Debug */,
+				4AB0B9E175F76BDE56CFF4B650F63D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95129AE5B5D278728A0A16E417D24530 /* Build configuration list for PBXNativeTarget "FocusTvButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817176E231FADBBF8D1DFDC1446A6C1B /* Debug */,
+				C59D59D5DDBF146B2862680BE80AFA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
